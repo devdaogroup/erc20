@@ -6,7 +6,7 @@ async function main() {
   const token = await hre.viem.deployContract('ERC20Token', ['0x2459fD68B75E9f2f90d54042b2Fc3777Bb499818', 'Bitcoin', 'BTC']);
   const tokenFunctions = await hre.viem.getContractAt("ERC20Token", token.address);
 
-  // tokenFunctions.write.mint(['0x2459fD68B75E9f2f90d54042b2Fc3777Bb499818', parseEther('100')])
+  // tokenFunctions.write.mint(['0x2459fD68B75E9f2f90d54042b2Fc3777Bb499818', parseEther('100')]);
 
   console.log(
     `token.address: ${token.address}\n`,

@@ -15,10 +15,10 @@ This repository contains an implementation of an ERC-20 token contract on the Et
 
 ## Usage
 - Clone the repository and navigate to the project directory.
-- Install the required dependencies using npm install.
-- Compile the smart contract by running npx hardhat compile.
-- Customize the contract parameters, such as the token name, symbol, and decimal places, in Token.sol.
-- Deploy the contract to a desired Ethereum network using npx hardhat run scripts/deploy.js --network <network>.
+- Install the required dependencies using `npm install`.
+- Compile the smart contract by running `npx hardhat compile`.
+- Customize the contract parameters, such as the token name, symbol, and decimal places, in deploy.ts or erc20.sol.
+- Deploy the contract to a desired Ethereum network using `npx hardhat run scripts/deploy.js --network <network>`.
 - Interact with the deployed contract using the provided JavaScript API or via transaction calls.
 
 ## Testing
